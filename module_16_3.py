@@ -8,7 +8,7 @@ users = {"1": "Имя: Example, возраст: 18"}
 
 
 @app.get("/users")
-async def get_tasks():
+async def get_users():
     return users
 
 
